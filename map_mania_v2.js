@@ -49,7 +49,7 @@ function updateGame() {
         console.log("Inbounds");
     }
     // If zoom level is equal to or greater than six AND inbounds, this will happen
-    if ((zoomLevel >= 6) && (inBounds)) {
+    if ((zoomLevel >= 8) && (inBounds)) {
         console.log("Ta da! You did it! Time for the next place");
         addMarker(currentPlace); // adds marker of found place
         SetScore(score += 10000) // Adds 10,00 points every time nextplace is called
