@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+  Author:  Stephanie Quick 
+  Class:   Web & Distributed Programming 
+  Project: Map Mania v1
+  Description: Programming Assignment #3: 1st version of map_mania 
+-->
+
+<html>
+  <head>
+    <title>Map Mania</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <script src="map_mania_v2.js"></script>
+    <link rel="stylesheet" href="map_style.css"> 
+  </head>
+
+  <body onload="initApplication()">
+      <h1 id= "demo" ondblclick="myFunction()">Stephanie's &quot;Top Ten&quot; Favorite Places to Visit Game</h1>        
+      Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+      Score: <input id="score-id" type="text" value="" size="20" disabled><br><br>
+
+      <script>
+          function myFunction() {  'Cheat code function'
+            alert("What a cheater. Oh well, you win!")
+          }
+          </script>
+
+      <div id="myMapID"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTyBdhHVbdh33DmZLtUj9FmsYJ9SSAb2M&callback=initMap"
+    async defer></script>
+  </body>
+</html>
