@@ -17,3 +17,5 @@ if ((zoomLevel >= 7) && (inBounds)) {
 After this, the nextPlace function is called. This function is mainly to implement the hints being updated each time
 By achieving this, I simply added a long if else statement of each of the hints. 
 A few more functions were implemented but that is how I did a majority of this project. 
+
+The cheat code was implemented in the html file also by adding a new function. 
